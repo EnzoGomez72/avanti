@@ -1,0 +1,631 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #e2dfdc;
+    padding-top: 60px;
+}
+
+.navbar{
+    background-color: #0c0c0c;
+}
+
+.navbar-collapse a{
+    color: #fdfdfd;
+    font-family: "Inter", sans-serif;
+    margin: 8px;
+}
+
+.navbar-collapse a:hover{
+    color: #6d646d;
+}
+
+.navbar-toggler{
+    background-color: #fdfdfd;
+}
+
+h1{
+    color: #f1f1ed;
+    text-align: center;
+    font-size: 50px;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+/**-----------------MAIN-------------------*/
+.hero{    
+    width: 100%;
+    height: calc(100vh - 60px);
+    background-image: url(../img/fog.jpg);
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    color: #161516;
+    font-family: "Inter", sans-serif;
+}
+
+.hero h2{
+    font-size: 80px;
+    font-weight: 700;
+}
+
+.hero p{
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.hero a{
+    text-decoration: none;
+    font-size: 40px;
+    font-weight: 700;
+    color: #fdfdfd;
+    background-color: #161516;
+    margin-top: 20px;
+    padding: 12px;
+    transition: 0.3s ease;
+}
+
+.hero a:hover{
+    background-color: #fdfdfd;
+    border-color: #161516;
+    border: 2px solid #161516;
+    color: #161516;
+}
+
+.buy{
+    display:flex;
+    justify-content: center;
+    }
+
+    .buy .buy-contenedor{
+        max-width: 90%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-auto-rows: auto;
+        grid-gap: 4rem;
+    }
+
+    .buy .buy-contenedor img{
+        width: 100%;
+        height: 100%;
+    }
+
+/**----------------FOOTER------------------*/
+footer{
+    display: flex;
+    flex-direction: column;
+margin-top: 16px;
+padding: 15px 0;
+font-family: "Inter", sans-serif;
+}
+
+.footer-contenedor{
+    display: flex;
+    background-color: #e2dfdc;
+    gap: 20px;
+    padding: 0px 30px;
+    margin: auto;
+    max-width: 1700px;
+}
+
+.footer-p{
+    flex-grow: 1;
+    flex-basis: 100%;
+}
+
+.footer-ayuda{
+    flex-grow: 1;
+    flex-basis: 70%;
+    }
+
+.footer-redes{
+    flex-grow: 1;
+    flex-basis: 70%;
+}
+
+.footer-contenedor h4{
+    padding-left: 31px;
+    margin-bottom: 10px;
+    background-color: #e2dfdc;
+    color: #000000;
+    font-size: 1rem;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+footer p{
+    padding-left: 12px;
+    font-size: 14px;
+}
+
+footer a{
+    text-decoration: none;
+    color: #161516;
+    font-weight: 400;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+
+footer a:hover{
+    color: #6d646d;
+    padding-left: 8px;
+}
+
+footer ul{
+    list-style: none;
+}
+
+.copyright {
+    padding: 15px 0;
+    text-align: center;
+    border-top: 1px solid #161516;
+    height: 2px;
+}
+
+/**------------------TOPS BOTTOMS Y ACCESORIOS-----------------*/
+.tops, .bottoms, .accesorios{
+    padding-top: 30px;
+}
+
+.card{
+    background-color: #f1f1f0;
+    width: 450px;
+    margin: 16px;
+    border-radius: 5px;
+    font-family: "inter", sans-serif;
+}
+
+.card img{
+    height: 500px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.card-title{
+    font-size: 20px;
+    text-align: center;
+    font-weight: 300;
+    margin-top: 10px;
+}
+.btn{
+    text-decoration: none;
+    color: #f1f1ed;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #0c0c0c;
+    font-weight: 300;
+    margin-bottom: 10px;
+    display: block;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+.compra-incio{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: start;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.compra-medio{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.compra-fin{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: end;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+/**-----------------CONTACTO----------------*/
+.contacto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: transparent;
+}
+form{
+    width: 80%;
+    max-width: 600px;
+    font-family: "inter", sans-serif;
+}
+
+form .input-grupo{
+    margin-bottom: 30px;
+}
+
+input, textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #161516;
+    background-color: #fdfdfd;
+}
+
+.enviar{
+    width: 100%;
+    padding: 10px;
+    transition: 0.3s ease-in;
+    background-color: transparent;
+    background-color: #fdfdfd;
+}
+
+.enviar:hover{
+    background-color: #161516;
+    color: #fdfdfd;
+}
+/**-------------------PREGUNTAS FRECUENTES------------------*/
+.faq-main{
+    padding-top: 44px;
+    width: 100%;
+}
+
+.faq-main h1{
+    color: #0c0c0c;
+    font-family: "inter", sans-serif;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.accordion{
+    width: 80%;
+    margin: 4% 0 7% 10%;
+}
+
+.accordion-button{
+    font-weight: bold;
+}
+
+/**-------------------CAMBIOS Y DEVOLUCIONES------------------*/
+
+.cyd-main{
+    padding-top: 44px;;
+}
+
+.cyd-main h1{
+    color: #0c0c0c;
+    font-family: "inter", sans-serif;
+    margin: 10px 0 32px 0;
+}
+
+.cambios, .devoluciones{
+    display: grid;
+    grid-auto-columns: auto;
+    grid-auto-rows: auto;
+    margin-left: 24%;
+}
+
+.grid-contenedor{
+    display: grid;
+    grid-auto-columns: auto;
+    grid-auto-rows: auto;
+    width: 72%;
+    background-color: #fdfdfd;
+    font-family: "inter", sans-serif;
+}
+
+.grid-contenedor p{
+    padding-left: 24px;
+    font-size: 14px;
+}
+
+.grid-contenedor h2{
+    background-color: #fdfdfd;
+    padding-left: 18px;
+}
+
+.grid-contenedor ul{
+    padding-left: 40px;
+}
+
+.grid-contenedor a{
+    margin-right: 30%;
+    margin-left: 10%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    width: 80%;
+    text-decoration: none;
+    color: #fdfdfd;
+    background-color: #161516;
+    text-align: center;
+    transition: 0.3s ease-in;
+}
+
+.grid-contenedor a:hover{
+    background-color: #fdfdfd;
+    border-color: #161516;
+    border: 2px solid #161516;
+    color: #161516;
+}
+
+/**-------------------LOOKBOOK------------------*/
+
+.lookbook{
+    padding-top: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.lookbook .grid-lookbook{
+    max-width: 80%;
+    display: grid;
+    grid-template-columns: 330px 330px 330px;
+    grid-auto-rows: auto;
+    grid-gap: 1rem;
+}
+
+.lookbook .grid-lookbook img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.lookbook .grid-lookbook .grid-lookbook-item-uno{
+grid-column: 1/4;
+}
+
+.lookbook .grid-lookbook .grid-lookbook-item-ocho{
+    grid-column: 1/3;
+}
+
+.lookbook .grid-lookbook .grid-lookbook-item-diez{
+    grid-column: 2/4;
+}
+
+/**!----MEDIA QUERY----*/
+
+/**---------------MAIN, FOOTER Y NAV-----------*/
+
+@media screen and (max-width:990px){
+    .hero h2{
+        font-size: 60px;
+    }
+    
+    .hero p{
+        font-size: 36px;
+    }
+    
+    .hero a{
+        font-size: 36px;
+    }
+    
+    .buy .buy-contenedor{
+        grid-gap: 2rem;
+    }
+}
+
+@media screen and (max-width:900px){
+    .hero{
+        height: calc(100vh - 60px);
+        background-image: url(../img/fog-resize.jpg);
+    }
+}
+
+@media screen and (max-width:850px){
+    .hero h2{
+        font-size: 50px;
+    }
+
+    .hero p{
+        font-size: 28px;
+    }
+
+    .hero a{
+        font-size: 30px;
+    }
+
+    .buy div {
+        grid-column: 1/4;
+    }
+}
+
+@media screen and (max-width:800px){
+    .footer-contenedor{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:650px){
+    .hero{
+        height: calc(100vh - 61px);
+    }
+
+    .hero h2{
+        font-size: 42px;
+    }
+
+    .hero p{
+        font-size: 22px;
+    }
+
+    .hero a{
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width:500px){
+    .navbar h1{
+        font-size: 40px;
+    }
+
+    
+    .hero h2{
+        font-size: 42px;
+    }
+
+    .hero p{
+        font-size: 18px;
+    }
+
+    .hero a{
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width:400px){
+
+    .hero h2{
+        font-size: 38px;
+    }
+
+    .hero p{
+        font-size: 17px;
+    }
+
+    .hero a{
+        font-size: 20px;
+    }
+}
+
+/**----MEDIA QUERY LOOKBOOK----*/
+
+@media screen and (max-width:1220px){
+    .lookbook .grid-lookbook{
+        grid-template-columns: 250px 250px 250px;
+    }
+}
+
+@media screen and (max-width:950px){
+    .lookbook .grid-lookbook{
+        grid-template-columns: 200px 200px 200px;
+    }
+}
+
+@media screen and (max-width:790px){
+    .lookbook .grid-lookbook{
+        grid-template-columns: 150px 150px 150px;
+    }
+}
+
+@media screen and (max-width:600px){
+    .lookbook .grid-lookbook{
+        grid-template-columns: 200px 200px ;
+    }
+    
+    .lookbook .grid-lookbook .grid-lookbook-item-uno{
+    grid-column: 1/3;
+    }
+    
+    .lookbook .grid-lookbook .grid-lookbook-item-ocho{
+        grid-column: 1/3;
+    }
+    
+    .lookbook .grid-lookbook .grid-lookbook-item-diez{
+        grid-column: 1/3;
+    }
+
+    .lookbook .grid-lookbook .grid-lookbook-item-catorce{
+        grid-column: 1/3;
+    }
+}
+
+@media screen and (max-width:510px){
+    .lookbook .grid-lookbook{
+        grid-template-columns: 160px 160px ;
+    }
+}
+
+@media screen and (max-width:410px){
+    .lookbook .grid-lookbook{
+        grid-template-columns: 160px;
+    }
+    .grid-lookbook div{
+        grid-column: 1/3;
+    }
+}
+
+/**----MEDIA QUERY CAMBIOS Y DEVOLUCIONES----*/
+@media screen and (max-width:1150px){
+    .grid-contenedor a{
+    width: 80%;
+    margin-right: 0%;
+    margin-left: 10%;
+    font-size: 14px;
+    }
+    .cambios, .devoluciones{
+        margin-left: 10%;
+    }
+    
+    .grid-contenedor{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width:850px){
+    .cyd-main h1{
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width:650px){
+    .cyd-main h1{
+        font-size: 32px;
+    }
+    .grid-contenedor p{
+        padding-left: 24px;
+        font-size: 12px;
+    }
+    .grid-contenedor ul li{
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width:550px){
+    .cyd-main h1{
+        font-size: 26px;
+    }
+    .grid-contenedor a{
+        width: 90%;
+        margin-left: 5%;
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .cambios, .devoluciones{
+        margin-left: 6%;
+    }
+    
+    .grid-contenedor{
+        width: 94%;
+    }
+}
+
+/**-----------------MEDIA QUERY TARJETAS-----------------*/
+
+@media screen and (max-width:500px) {
+    .card{
+        width: 350px;
+    }
+    
+    .card img{
+        height: 400px;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .card{
+        width: 310px;
+    }
+    
+    .card img{
+        height: 360px;
+    }
+}
