@@ -1,0 +1,61 @@
+.hero{
+    width: 100%;
+    height: calc(100vh - 60px);
+    background-image: url(../img/fog.jpg);
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    color: #161516;
+    font-family: "Inter", sans-serif;
+    h1{
+        font-size: nth($font-size, 1);
+        font-weight: 700;
+    }
+
+    p{
+        font-weight: 600;
+        font-size: 40px;
+    }
+
+    a{
+        text-decoration: none;
+        font-size: 40px;
+        font-weight: 700;
+        color: #fdfdfd;
+        background-color: #161516;
+        margin-top: 20px;
+        padding: 12px;
+        transition: 0.3s ease;
+        &:hover{
+            @extend %color-boton-animacion;
+            border-color: #161516;
+            border: 2px solid #161516;
+        }
+    }
+}
+
+.buy{
+    display:flex;
+    justify-content: center;
+    .buy-contenedor{
+        max-width: 90%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-auto-rows: auto;
+        grid-gap: 4rem;
+        div{
+
+            a{
+
+                img{
+                    width: 100%;
+                    height: 100%;
+
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,24 @@
+body{
+    .faq-main{
+        padding-top: 44px;
+        width: 100%;
+        h1{
+            color: #0c0c0c;
+            font-family: "inter", sans-serif;
+            text-align: center;
+            margin-top: 10px;
+        }
+        .accordion{
+            width: 80%;
+            margin: 4% 0 7% 10%;
+            .accordion-item{
+                h2{
+                    .accordion-button{
+                        font-weight: bold;
+                    }
+                }
+                
+            }
+        }
+    }
+}

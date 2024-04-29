@@ -103,9 +103,9 @@ h1{
 footer{
     display: flex;
     flex-direction: column;
-margin-top: 16px;
-padding: 15px 0;
-font-family: "Inter", sans-serif;
+    margin-top: 16px;
+    padding: 15px 0;
+    font-family: "Inter", sans-serif;
 }
 
 .footer-contenedor{
@@ -294,7 +294,7 @@ input, textarea{
 /**-------------------CAMBIOS Y DEVOLUCIONES------------------*/
 
 .cyd-main{
-    padding-top: 44px;;
+    padding-top: 44px;
 }
 
 .cyd-main h1{

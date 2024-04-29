@@ -1,0 +1,67 @@
+.tops, .bottoms, .accesorios{
+    padding-top: 30px;
+}
+
+.compra-incio{
+    @include flex (flex, space-evenly, start, wrap);
+    text-align: center;
+
+}
+.card{
+    background-color: #f1f1f0;
+    width: 450px;
+    margin: 16px;
+    border-radius: 5px;
+    font-family: "inter", sans-serif;
+
+    div{
+
+        img{
+            height: 500px;
+            width: 100%;
+            border-radius: 5px;
+
+            }
+        }
+
+    div{
+
+        h3{
+            font-size: 20px;
+            text-align: center;
+            font-weight: 300;
+            margin-top: 10px;
+
+            }
+
+        a{
+            text-decoration: none;
+            color: #f1f1ed;
+            padding: 10px;
+            border-radius: 5px;
+            background-color: #0c0c0c;
+            font-weight: 300;
+            margin-bottom: 10px;
+            display: block;
+            margin-right: 30px;
+            margin-left: 30px;
+            transition: 0.3s ease-in;
+            &:hover{
+                @extend %color-boton-animacion;
+
+            }
+            }
+        }
+    }
+
+
+.compra-medio{
+    @include flex (flex, space-evenly, center, wrap);
+    text-align: center;
+
+}
+
+.compra-fin{
+    @include flex (flex, space-evenly, end, wrap);
+    text-align: center;
+}

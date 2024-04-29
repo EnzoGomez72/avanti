@@ -1,0 +1,50 @@
+.contacto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: transparent;
+
+    form{
+        width: 80%;
+        max-width: 600px;
+        font-family: "inter", sans-serif;
+
+        .input-grupo{
+            margin-bottom: 30px;
+
+            input{
+                width: 100%;
+                padding: 10px;
+                border: 1px solid #161516;
+                background-color: #fdfdfd;
+
+            }
+
+            textarea{
+                width: 100%;
+                padding: 10px;
+                border: 1px solid #161516;
+                background-color: #fdfdfd;
+
+            }
+        }
+
+        div{
+
+            .enviar{
+                width: 100%;
+                padding: 10px;
+                transition: 0.3s ease-in;
+                background-color: transparent;
+                background-color: #fdfdfd;
+                &:hover{
+                    background-color: #161516;
+                    color: #fdfdfd;
+
+                }
+
+            }
+        }
+    }
+}

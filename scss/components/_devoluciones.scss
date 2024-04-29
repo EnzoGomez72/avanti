@@ -1,0 +1,64 @@
+.cyd-main{
+    padding-top: 44px;
+
+    h1{
+        color: #0c0c0c;
+        font-family: "inter", sans-serif;
+        margin: 10px 0 32px 0;
+        text-align: center;
+
+    }
+
+    .cambios, .devoluciones{
+        display: grid;
+        grid-auto-columns: auto;
+        grid-auto-rows: auto;
+        margin-left: 24%;
+
+        .grid-contenedor{
+            display: grid;
+            grid-auto-columns: auto;
+            grid-auto-rows: auto;
+            width: 72%;
+            background-color: #fdfdfd;
+            font-family: "inter", sans-serif;
+
+            h2{
+                background-color: #fdfdfd;
+                padding-left: 18px;
+
+            }
+
+            p{
+                padding-left: 24px;
+                font-size: 14px;
+
+            }
+
+            ul{
+                padding-left: 40px;
+
+            }
+
+            a{
+                margin-right: 30%;
+                margin-left: 10%;
+                padding-top: 8px;
+                padding-bottom: 8px;
+                width: 80%;
+                text-decoration: none;
+                color: #fdfdfd;
+                background-color: #161516;
+                text-align: center;
+                transition: 0.3s ease-in;
+                &:hover{
+                    @extend %color-boton-animacion;
+                    border-color: #161516;
+                    border: 2px solid #161516;
+            }
+
+            }
+        }
+    }
+
+}

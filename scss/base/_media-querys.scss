@@ -1,0 +1,328 @@
+/**---------------MAIN, FOOTER Y NAV-----------*/
+
+@media screen and (max-width:990px){
+main{
+
+    .hero{
+
+        h1{
+            font-size: 60px;
+        }
+
+        p{
+            font-size: 36px;
+        }
+
+        a{
+            font-size: 36px;
+        }
+    }
+
+    .buy{
+
+        .buy-contenedor{
+            grid-gap: 2rem;
+        }
+    }
+}
+}
+
+@media screen and (max-width:900px){
+main{
+    .hero{
+        height: calc(100vh - 60px);
+        background-image: url(../img/fog-resize.jpg);
+    
+    }
+}
+}
+
+@media screen and (max-width:850px){
+main{
+    .hero{
+
+        h1{
+            font-size: 42px;
+        }
+
+        p{
+            font-size: 28px;
+        }
+
+        a{
+            font-size: 30px;
+        }
+    }
+
+    .buy{
+        div{
+            grid-column: 1/4;
+        }
+    }
+}
+}
+
+@media screen and (max-width:800px){
+    footer{
+        .footer-contenedor{
+            flex-direction: column;
+        }
+    }
+}
+
+@media screen and (max-width:650px){
+main{
+    .hero{
+        height: calc(100vh - 61px);
+
+        p{
+            font-size: 22px;
+        }
+
+        a{
+            font-size: 22px;
+        }
+    }
+}
+}
+
+@media screen and (max-width:500px){
+body{
+    .navbar{
+        .container-fluid{
+            a{
+                h1{
+                    font-size: 40px;
+                }
+            }
+        }
+}
+    }
+
+main{
+    .hero{
+
+        p{
+            font-size: 18px;
+        }
+    }
+}
+}
+
+@media screen and (max-width:400px){
+main{
+    .hero{
+
+        h1{
+            font-size: 38px;
+        }
+
+        p{
+            font-size: 17px;
+        }
+
+        a{
+            font-size: 20px;
+        }
+    }
+}
+}
+
+/**-----------------MEDIA QUERY TARJETAS-----------------*/
+
+@media screen and (max-width:500px){
+main{
+    .card{
+        width: 350px;
+        div{
+            img{
+                height: 400px;
+            }
+        }
+    }
+}
+}
+
+@media screen and (max-width:400px){
+    main{
+        .card{
+            width: 310px;
+            div{
+                img{
+                    height: 360px;
+                }
+            }
+        }
+    }
+    }
+
+    /**----MEDIA QUERY CAMBIOS Y DEVOLUCIONES----*/
+
+@media screen and (max-width:1150px){
+    body{
+        .cyd-main{
+    
+            .cambios, .devoluciones{
+                margin-left: 10%;
+        
+                .grid-contenedor{
+                    width: 90%;
+        
+                    a{
+                        margin-right: 30%;
+                        margin-left: 10%;
+                        font-size: 14px;
+                    }
+                    }
+                }
+            }
+    }
+}
+
+@media screen and (max-width:850px){
+    .cyd-main{
+        h1{
+            font-size: 40px;
+        }
+    }
+}
+
+@media screen and (max-width:650px){
+    body{
+
+        .cyd-main{
+            h1{
+                font-size: 32px;
+            }
+            .cambios, .devoluciones{
+                .grid-contenedor{
+                    p{
+                        padding-left: 24px;
+                        font-size: 12px;
+                    }
+                    ul{
+                        li{
+                            font-size: 12px;
+                        }
+                    }
+                    }
+                }
+            }
+    }
+}
+
+@media screen and (max-width:550px){
+    body{
+
+        .cyd-main{
+            h1{
+                font-size: 26px;
+            }
+            .cambios, .devoluciones{
+                .grid-contenedor{
+                    a{
+                        width: 90%;
+                        margin-left: 5%;
+                        font-size: 10px;
+                    }
+                    }
+                }
+            }
+    }
+}
+
+@media screen and (max-width:400px){
+    body{
+
+        .cyd-main{
+            h1{
+                font-size: 26px;
+            }
+            .cambios, .devoluciones{
+                margin-left: 6%;
+                .grid-contenedor{
+                    width: 94%;
+                    }
+                }
+            }
+    }
+}
+
+/**----MEDIA QUERY LOOKBOOK----*/
+
+@media screen and (max-width:1220px){
+    body{
+        .lookbook{
+            .grid-lookbook{
+                grid-template-columns: 250px 250px 250px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:950px){
+    body{
+        .lookbook{
+            .grid-lookbook{
+                grid-template-columns: 200px 200px 200px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:790px){
+    body{
+        .lookbook{
+            .grid-lookbook{
+                grid-template-columns: 150px 150px 150px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:600px){
+    body{
+        .lookbook{
+            .grid-lookbook{
+                grid-template-columns: 200px 200px;
+
+                .grid-lookbook-item-uno{
+                    grid-column: 1/3;
+                }
+                .grid-lookbook-item-ocho{
+                    grid-column: 1/3;
+                }
+                .grid-lookbook-item-diez{
+                    grid-column: 1/3;
+                }
+                .grid-lookbook-item-catorce{
+                    grid-column: 1/3;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:510px){
+    body{
+        .lookbook{
+            .grid-lookbook{
+                grid-template-columns: 160px 160px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:410px){
+    body{
+        .lookbook{
+            .grid-lookbook{
+                grid-template-columns: 160px;
+
+                div{
+                    grid-column: 1/3;
+                }
+            }
+        }
+    }
+}
