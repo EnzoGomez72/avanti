@@ -7,6 +7,8 @@
   padding: 0;
   box-sizing: border-box; }
 
+  
+
 .hero a:hover, .card div a:hover, .cyd-main .cambios .grid-contenedor a:hover, .cyd-main .devoluciones .grid-contenedor a:hover {
   background-color: #fdfdfd;
   color: #161516; }
@@ -423,3 +425,6 @@ body .faq-main {
     margin: 4% 0 7% 10%; }
     body .faq-main .accordion .accordion-item h2 .accordion-button {
       font-weight: bold; }
+
+
+ 

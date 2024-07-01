@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-    <!--link rel="stylesheet" href="../css/style.css"-->
-    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <!--link rel="stylesheet" href="../css/estilos.css"-->
     <link rel="shortcut icon" href="../img/favicon-16x16.png" type="image/x-icon">
     <title>Bottoms | Pantalones y Shorts</title>
     <meta name="description" content="Pantalones, shorts y bermudas de jean, gabardina, algodon, nylon en cortes rectos, wide y slim fit.">
@@ -29,7 +29,7 @@
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item"><a class="nav-link" href="./contacto.html">Contacto</a></li>
                     <li class="nav-item"><a class="nav-link" href="#redes">Ayuda</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#redes">Redes</a></li>
+                    <li class="nav-item"><a class="nav-link" id="verCarrito" href="#shoppingCart">Carrito</a></li>
                 </ul>
             </div>
         </div>
@@ -37,103 +37,184 @@
 
     <main class="bottoms">
         <div class="compra-incio">
-            <div class="card">
+            <div class="card" id="10">
                 <div>
-                    <img src="../img/wideleg-trouser-black.png" alt="pantalon ancho black">
+                    <img class="card-image" src="../img/wideleg-trouser-black.png" alt="pantalon ancho black">
                 </div>
                 <div>
                     <h3 class="card-title">Wideleg Trouser Black</h3>
                     <p class="card-price">$ 37.000</p>
-                    <a href="">Agregar Al Carrito</a>
+                    <button class="btn agregarAlCarrito" id="agregarAlCarrito">Agregar Al Carrito</button>
                 </div>
             </div>
-            <div class="card">
+            <div class="card" id="11">
                 <div>
-                    <img src="../img/wideleg-trouser-gris.png" alt="pantalon ancho gray">
+                    <img class="card-image" src="../img/wideleg-trouser-gris.png" alt="pantalon ancho gray">
                 </div>
                 <div>
                     <h3 class="card-title">Wideleg Trouser Gray</h3>
                     <p class="card-price">$ 37.000</p>
-                    <a href="">Agregar Al Carrito</a>
+                    <button class="btn agregarAlCarrito" id="btn-11">Agregar Al Carrito</button>
                 </div>
             </div>
-            <div class="card">
+            <div class="card" id="12">
                 <div>
-                    <img src="../img/wideleg-trouser-lemoncream.png" alt="pantalon ancho lemoncream">
+                    <img class="card-image" src="../img/wideleg-trouser-lemoncream.png" alt="pantalon ancho lemoncream">
                 </div>
                 <div>
                     <h3 class="card-title">Wideleg Trouser Lemoncream</h3>
                     <p class="card-price">$ 37.000</p>
-                    <a href="">Agregar Al Carrito</a>
+                    <button class="btn agregarAlCarrito" id="agregarAlCarrito">Agregar Al Carrito</button>
                 </div>
             </div>
         </div>
 
         <div class="compra-medio">
-            <div class="card">
+            <div class="card" id="13">
                 <div>
-                    <img src="../img/wideleg-trouser-brown.png" alt="pantalon ancho brown">
+                    <img class="card-image" src="../img/wideleg-trouser-brown.png" alt="pantalon ancho brown">
                 </div>
                 <div>
                     <h3 class="card-title">Wideleg Trouser Brown</h3>
                     <p class="card-price">$ 37.000</p>
-                    <a href="">Agregar Al Carrito</a>
+                    <button class="btn agregarAlCarrito" id="agregarAlCarrito">Agregar Al Carrito</button>
                 </div>
             </div>
-            <div class="card">
+            <div class="card" id="14">
                 <div>
-                    <img src="../img/lightwashed-jean.png" alt="lightwashed jean">
+                    <img class="card-image" src="../img/lightwashed-jean.png" alt="lightwashed jean">
                 </div>
                 <div>
                     <h3 class="card-title">Lightwashed Jean</h3>
                     <p class="card-price">$ 37.000</p>
-                    <a href="">Agregar Al Carrito</a>
+                    <button class="btn agregarAlCarrito" id="agregarAlCarrito">Agregar Al Carrito</button>
                 </div>
             </div>
-            <div class="card">
+            <div class="card" id="15">
                 <div>
-                    <img src="../img/vintage-black-jean.png" alt="vintage jean black">
+                    <img class="card-image" src="../img/vintage-black-jean.png" alt="vintage jean black">
                 </div>
                 <div>
                     <h3 class="card-title">Vintage Jean Black</h3>
                     <p class="card-price">$ 37.000</p>
-                    <a href="">Agregar Al Carrito</a>
+                    <button class="btn agregarAlCarrito" id="agregarAlCarrito">Agregar Al Carrito</button>
                 </div>
             </div>
         </div>
 
         <div class="compra-fin">
-            <div class="card">
+            <div class="card" id="16">
                 <div>
-                    <img src="../img/nylon-track-pant-black.png" alt="track pant black">
+                    <img class="card-image" src="../img/nylon-track-pant-black.png" alt="track pant black">
                 </div>
                 <div>
                     <h3 class="card-title">Nylon Track Pant Black</h3>
                     <p class="card-price">$ 37.000</p>
-                    <a href="">Agregar Al Carrito</a>
+                    <button class="btn agregarAlCarrito" id="agregarAlCarrito">Agregar Al Carrito</button>
                 </div>
             </div>
-            <div class="card">
+            <div class="card" id="17">
                 <div>
-                    <img src="../img/sweatshort-lemoncream.png" alt="sweatshort lemoncream">
+                    <img class="card-image" src="../img/sweatshort-lemoncream.png" alt="sweatshort lemoncream">
                 </div>
                 <div>
                     <h3 class="card-title">Sweatshort Lemoncream</h3>
                     <p class="card-price">$ 37.000</p>
-                    <a href="">Agregar Al Carrito</a>
+                    <button class="btn agregarAlCarrito" id="agregarAlCarrito">Agregar Al Carrito</button>
                 </div>
             </div>
-            <div class="card">
+            <div class="card" id="18">
                 <div>
-                    <img src="../img/sweatshort-black.png" alt="sweatshort black">
+                    <img class="card-image" src="../img/sweatshort-black.png" alt="sweatshort black">
                 </div>
                 <div>
                     <h3 class="card-title">Sweatshort Black</h3>
                     <p class="card-price">$ 37.000</p>
-                    <a href="">Agregar Al Carrito</a>
+                    <button class="btn agregarAlCarrito" id="agregarAlCarrito">Agregar Al Carrito</button>
                 </div>
             </div>
         </div>
+        <div id="modal-container" class="modal-container"></div>
+                <!-- START SECTION SHOPPING CART -->
+                <section class="shopping-cart" id="shoppingCart">
+                    <div class="container">
+                        <h1 class="text-center">CARRITO</h1>
+                        <hr>
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="shopping-cart-header">
+                                    <h6>Producto</h6>
+                                </div>
+                            </div>
+                            <div class="col-2">
+                                <div class="shopping-cart-header">
+                                    <h6 class="text-truncate">Precio</h6>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="shopping-cart-header">
+                                    <h6>Cantidad</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- ? START SHOPPING CART ITEMS -->
+                        <div class="shopping-cart-items shoppingCartItemsContainer">
+                        </div>
+                        <!-- ? END SHOPPING CART ITEMS -->
+            
+                        <!-- START TOTAL -->
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="shopping-cart-total d-flex align-items-center">
+                                    <p class="mb-0">Total</p>
+                                    <p class="ml-4 mb-0 shoppingCartTotal">0€</p>
+                                    <div class="toast ml-auto bg-info" role="alert" aria-live="assertive" aria-atomic="true"
+                                        data-delay="2000">
+                                        <div class="toast-header">
+                                            <span>✅</span>
+                                            <strong class="mr-auto ml-1 text-secondary">Elemento en el carrito</strong>
+                                            <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="toast-body text-white">
+                                            Se aumentó correctamente la cantidad
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="btn btn-success ml-auto comprarButton" type="button" data-toggle="modal"
+                                    data-target="#comprarModal">Comprar</button>
+                            </div>
+                        </div>
+            
+                        <!-- END TOTAL -->
+            
+                        <!-- START MODAL COMPRA -->
+                        <div class="modal fade" id="comprarModal" tabindex="-1" aria-labelledby="comprarModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="comprarModalLabel">Gracias por su compra</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>Pronto recibirá su pedido</p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- END MODAL COMPRA -->
+            
+            
+                    </div>
+            
+                </section>
     </main>
 
     <footer id="redes">
@@ -161,7 +242,16 @@
             <p>AVANTI Copyright © 2024</p>
         </div>
     </footer>
-
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <script src="../index.js"></script>
 </body>
 </html>
