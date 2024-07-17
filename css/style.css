@@ -1097,3 +1097,179 @@ body .faq-main {
     margin: 4% 0 7% 10%; }
     body .faq-main .accordion .accordion-item h2 .accordion-button {
       font-weight: bold; }
+
+
+
+      body{
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+    }
+    a{
+        text-decoration: none;
+    }
+    
+    /*!   -----------   HEADER  -------------------*/
+    
+    header{
+        background-color: rgb(188, 204, 221);
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    
+    header nav{
+        display: flex;
+        justify-content: space-between;
+        margin: 16px;
+    }
+    
+    header nav #logo{
+        height: 40px;
+    }
+    
+    header nav div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+        padding-right: 20px;
+        
+    }
+    
+    header nav div img{
+        height: 40px;
+    }
+    
+    
+    header nav div #contador-carrito{
+        background-color: black;
+        color:white;
+        border-radius: 100%;
+        display: inline-block;
+        width: 20px ;
+        text-align: center;
+        aspect-ratio: 1;
+        position: absolute;
+    }
+    
+    /**!   -----------   MAIN  -------------------*/
+                    /**INDEX*/
+    /*.productos-container{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap:20px;
+    }
+    .productos-container div{
+        display: flex;
+        flex-direction: column;
+        max-width: 400px;
+        background-color: rgba(189, 184, 184, 0.726);
+        padding: 3px;
+    }
+    .productos-container div h3{
+        margin: 5px;
+        text-align: center;
+    }
+    
+    .productos-container div img{
+        /* width: 100%; */
+        /*height: 180px;
+        width: 140;
+        aspect-ratio: 1.1;
+    
+    }
+    
+    .productos-container div span{
+        margin: 5px;
+        text-align: center;
+    
+    }
+    
+    .productos-container div button{
+        margin: 5px;
+        text-align: center;
+        align-items: center;
+        border-radius: 5px;
+        cursor:pointer;
+    }
+    
+                    /**CARRTIO*/
+    /*.productos-container-carrito{
+        width:auto;
+        margin:auto;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .productos-container-carrito div{
+        display: flex; 
+    }
+    
+    .productos-container-carrito div img{
+        height: 120px;
+        aspect-ratio: 1.1;
+    }
+    
+    .productos-container-carrito div h3{
+        width: 160px;
+        margin: 6px;
+        display: flex;
+        align-items: center;
+    
+    }
+    .productos-container-carrito div span{
+        width: 120px;
+        margin: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: rgb(2, 0, 95);
+        font-weight: bold;
+    }
+    .productos-container-carrito div div{
+        width: 12px;
+        display: flex;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+    }
+    .productos-container-carrito div div button{
+    
+    }
+    .productos-container-carrito div div .cantidad{
+        color:rgb(5, 5, 5)
+    }
+    
+    .totales{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 25px;
+        
+    }
+    .totales .unidades{
+    
+    }
+    
+    .totales .unidades span{
+    
+    }
+    .totales .precio{
+        
+    }
+    
+    .totales .precio span{
+    
+    }
+    
+    /**!   ----------- FOOTER  -------------------*/
+    
+    /*footer{
+        background-color: rgb(188, 204, 221);
+        margin-top: auto;
+        margin-top: 10px;
+    }
+    */

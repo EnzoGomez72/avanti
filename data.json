@@ -1,0 +1,86 @@
+[
+    {
+        "id": 1,
+        "nombre": "Embroided Ocho Tee Black",
+        "precio": 28000,
+        "img": "../img/embroided-ocho-black-tee.png",
+        "cantidad": 1
+    },
+    {
+        "id": 2,
+        "nombre": "Embroided Ocho Tee Gray",
+        "precio": 28000,
+        "img": "../img/embroided-ocho-gris-tee.png",
+        "cantidad": 1
+    },
+    {
+        "id": 3,
+        "nombre": "Embroided Ocho Tee Dune",
+        "precio": 28000,
+        "img": "../img/embroided-ocho-dune-tee.png",
+        "cantidad": 1
+    },
+    {
+        "id": 4,
+        "nombre": "Embroided Ocho Tee Lemoncream",
+        "precio": 28000,
+        "img": "../img/embroided-ocho-lemoncream-tee.png",
+        "cantidad": 1
+    },
+    {
+        "id": 5,
+        "nombre": "Embroidered Thunderbird Tee Black",
+        "precio": 28000,
+        "img": "../img/embroidered-thunderbird-tee.png",
+        "cantidad": 1
+    },
+    {
+        "id": 6,
+        "nombre": "Embroided Thunderbird Tee Dune",
+        "precio": 28000,
+        "img": "../img/embroidered-thunderbird-tee-dune.png",
+        "cantidad": 1
+    },
+    {
+        "id": 7,
+        "nombre": "Embroidered Thunderbird Tee Lemoncream",
+        "precio": 28000,
+        "img": "../img/embroidered-thunderbird-tee-lemoncream.png",
+        "cantidad": 1
+    },
+    {
+        "id": 8,
+        "nombre": "Embroidered Thunderbird Tee Gray",
+        "precio": 28000,
+        "img": "../img/embroidered-thunderbird-tee-gris.png",
+        "cantidad": 1
+    },
+    {
+        "id": 9,
+        "nombre": "Nylon Track Jacket Black",
+        "precio": 28000,
+        "img": "../img/nylon-track-jacket-black.png",
+        "cantidad": 1
+    },
+    {
+        "id": 10,
+        "nombre": "Wideleg Trouser Black",
+        "precio": 37000,
+        "img": "../img/wideleg-trouser-black.png",
+        "cantidad": 1
+    },
+    {
+        "id": 11,
+        "nombre": "Wideleg Trouser Gray",
+        "precio": 37000,
+        "img": "../img/wideleg-trouser-gris.png",
+        "cantidad": 1
+    },
+    {
+        "id": 12,
+        "nombre": "Wideleg Trouser Lemoncream",
+        "precio": 37000,
+        "img": "../img/wideleg-trouser-lemoncream.png",
+        "cantidad": 1
+    }
+]
