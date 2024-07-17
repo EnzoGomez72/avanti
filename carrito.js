@@ -72,33 +72,6 @@ function obtenerCarritoDeLocalStorage() {
     return carrito 
   }
 
-
-/*function borrarItem(id){
-   /* event.preventDefault();*/
-   /* let carrito = localStorage.getItem('carrito');
-    if (carrito){
-        carrito=JSON.parse(carrito);
-
-        const indice= carrito.findIndex(producto=>producto.id=== id);
-
-        if (indice !== -1){
-            carrito.splice(indice,1);
-
-            localStorage.setItem('carrito',JSON.stringify(carrito))
-            location.reload();
-           
-            } else {
-                //console.log(`No s eencontro el id: ${id}`);
-                location.reload();
-            }; 
-         
-        }else {
-            //console.log(`No exite elemento`);
-            location.reload();
-        }
-    }*/
-    
-
 function updateShoppingCartTotal() {
   const shoppingCartTotal = document.querySelector('.shoppingCartTotal');
   let carrito = obtenerCarritoDeLocalStorage()
